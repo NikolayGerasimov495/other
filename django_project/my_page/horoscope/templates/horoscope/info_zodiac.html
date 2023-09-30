@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block css_additional %}
+    <link rel="stylesheet" href="{% static 'horoscope/css/info.css' %}">
+{% endblock %}
+
+{% block title %}
+    Гороскоп для {{ sign|capfirst }}
+{% endblock %}
+
+{#</head>#}
+{#<body>#}
+{#<h1>Приложение гороскоп</h1>#}
+
+{% block content %}
+    {% include 'includes/navbar.html' %}
+{% block css_info %}
+
+
+    <h1>{{ sign|upper }}</h1>
+{#    <h1>content from info_zodiac.html</h1>#}
+          {% endblock %}
+    {% if description_zodiac is None %}
+        <h2>Неправильный знак задиака - {{ sign }}</h2>
+    {% else  %}
+        <h2>{{ description_zodiac|capfirst|safe }}</h2>
+    {% endif %}
+{% endblock %}
+
+
+
+{##}
+{##}
+{#<p>Число {{ my_int|add:'100' }}</p>#}
+{#<p>Словрь {{ my_dict }}, ключ {{ my_dict.name }}</p>#}
+{#<p>{{ my_float }}</p>#}
+{#    {% if my_list|length >= 3 %}#}
+{#        <p>Состоит из 3-х цифр - {{ my_list }}</p>#}
+{#     {% elif my_list|length == 2 %}#}
+{#        <p>Состоит из 2-х цифр - {{ my_list }}</p>#}
+{#    {% endif %}#}
+{#<p>{{ my_tuple|join:'--' }}</p>#}
+{#<p>Экземпляр класса: {{ my_class }} лет {{ my_class.age }}</p>#}
+{##}
+{#</body>#}
+{#</html>#}

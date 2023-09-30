@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="utf-8"?>
+<price_data price_date="2023-05-23">
+    <offer>
+        <id>919131</id>
+        <name>Ароматизатор воздуха Love is-вишня-лимон</name>
+        <type>per_item</type>
+        <regular_price>209.00000</regular_price>
+        <discount_price />
+        <discount_from_date />
+        <discount_to_date />
+    </offer>
+    <offer>
+        <id>929969</id>
+        <name>Перец стручковый маринованный Melis 720 мл</name>
+        <type>per_item</type>
+        <regular_price>219.00000</regular_price>
+        <discount_price />
+        <discount_from_date />
+        <discount_to_date />
+    </offer>
+    <offer>
+        <id>941755</id>
+        <name>Прокладки гигиенические Always Maxi Secure Night Extra 7шт Single</name>
+        <type>per_item</type>
+        <regular_price>204.00000</regular_price>
+        <discount_price />
+        <discount_from_date />
+        <discount_to_date />
+    </offer>
+    <offer>
+        <id>792520</id>
+        <name>Вино Гави Валентино ОРДИНАРНОЕ белое сухое 7,5-18% 0,75 (Италия)</name>
+        <type>per_item</type>
+        <regular_price>1829.00000</regular_price>
+        <discount_price />
+        <discount_from_date />
+        <discount_to_date />
+    </offer>
+    <offer>
+        <id>841857</id>
+        <name>Книга Гравити Фолз. Коллекция коротких комиксов</name>
+        <type>per_item</type>
+        <regular_price>549.00000</regular_price>
+        <discount_price />
+        <discount_from_date />
+        <discount_to_date />
+    </offer>
+    <offer>
+        <id>662922</id>
+        <name>Нерка филе-ломтики с/с Меридиан 120г</name>
+        <type>per_item</type>
+        <regular_price>424.00000</regular_price>
+        <discount_price />
+        <discount_from_date />
+        <discount_to_date />
+    </offer>
+    <offer>
+        <id>918777</id>
+        <name>Приправа для плова КУХЕНВИЛЬ 30 г</name>
+        <type>per_item</type>
+        <regular_price>17.99000</regular_price>
+        <discount_price />
+        <discount_from_date />
+        <discount_to_date />
+    </offer>
+    <offer>
+        <id>857519</id>
+        <name>Чай черный Greenfield Sicilian Citrus 20пак</name>
+        <type>per_item</type>
+        <regular_price>159.99000</regular_price>
+        <discount_price>99.99</discount_price>
+        <discount_from_date>2023-05-10T00:00:00</discount_from_date>
+        <discount_to_date>2023-05-24T00:00:00</discount_to_date>
+    </offer>
+    <offer>
+        <id>941597</id>
+        <name>БЗМЖ Мороженое Село Зеленое пломбир ванильн в шок глаз. эск 80г</name>
+        <type>per_item</type>
+        <regular_price>84.99000</regular_price>
+        <discount_price />
+        <discount_from_date />
+        <discount_to_date />
+    </offer>
+    <offer>
+        <id>782136</id>
+        <name>Колготки Opium Siluet Body 40</name>
+        <type>per_item</type>
+        <regular_price>499.00000</regular_price>
+        <discount_price>349.99</discount_price>
+        <discount_from_date>2023-05-03T00:00:00</discount_from_date>
+        <discount_to_date>2023-05-31T00:00:00</discount_to_date>
+    </offer>
+    <offer>
+        <id>894692</id>
+        <name>Носки детские Esli 19С-143СПЕ</name>
+        <type>per_item</type>
+        <regular_price>89.99000</regular_price>
+        <discount_price />
+        <discount_from_date />
+        <discount_to_date />
+    </offer>
+    <offer>
+        <id>399977</id>
+        <name>Лапша рисовая Sen Soy 300г</name>
+        <type>per_item</type>
+        <regular_price>149.99000</regular_price>
+        <discount_price />
+        <discount_from_date />
+        <discount_to_date />
+    </offer>
+    <offer>
+        <id>388029</id>
+        <name>Майонез Махеевъ провансаль премиум 67% 190г дой-пак</name>
+        <type>per_item</type>
+        <regular_price>70.99000</regular_price>
+        <discount_price />
+        <discount_from_date />
+        <discount_to_date />
+    </offer>
+    <offer>
+        <id>859100</id>
+        <name>Фруктовая нарезка 2</name>
+        <type>per_kilo</type>
+        <regular_price>799.90000</regular_price>
+        <discount_price />
+        <discount_from_date />
+        <discount_to_date />
+    </offer>
+    <offer>
+        <id>249300</id>
+        <name>Морковь мытая 1кг п/э</name>
+        <type>per_item</type>
+        <regular_price>109.99000</regular_price>
+        <discount_price />
+        <discount_from_date />
+        <discount_to_date />
+    </offer>
+    <offer>
+        <id>913580</id>
+        <name>Круассан 7DAYS 'ягодное ассорти' 65 г</name>
+        <type>per_item</type>
+        <regular_price>55.99000</regular_price>
+        <discount_price />
+        <discount_from_date />
+        <discount_to_date />
+    </offer>
+    <offer>
+        <id>954336</id>
+        <name>Ополаскиватель д/десен Лесной Бальзам Природная Свежесть 800мл дойпак</name>
+        <type>per_item</type>
+        <regular_price>239.00000</regular_price>
+        <discount_price />
+        <discount_from_date />
+        <discount_to_date />
+    </offer>
+    <offer>
+        <id>466650</id>
+        <name>Краска д/замши/нубука/велюра Salton черная 250мл</name>
+        <type>per_item</type>
+        <regular_price>319.00000</regular_price>
+        <discount_price />
+        <discount_from_date />
+        <discount_to_date />
+    </offer>
+    <offer>
+        <id>558465</id>
+        <name>Набор д/обработки стоп Zinger S-7 арт.16916</name>
+        <type>per_item</type>
+        <regular_price>629.00000</regular_price>
+        <discount_price />
+        <discount_from_date />
+        <discount_to_date />
+    </offer>
+    <offer>
+        <id>720004</id>
+        <name>Пакет подарочный Арт и Дизайн BC премиум 18х22,5см</name>
+        <type>per_item</type>
+        <regular_price>104.99000</regular_price>
+        <discount_price />
+        <discount_from_date />
+        <discount_to_date />
+    </offer>
+    <offer>
+        <id>818008</id>
+        <name>Светильник Старт PL-2LED-COB белый</name>
+        <type>per_item</type>
+        <regular_price>339.00000</regular_price>
+        <discount_price />
+        <discount_from_date />
+        <discount_to_date />
+    </offer>
+    <offer>
+        <id>907593</id>
+        <name>Носки детские Tip-top 19С-191СП</name>
+        <type>per_item</type>
+        <regular_price>169.99000</regular_price>
+        <discount_price />
+        <discount_from_date />
+        <discount_to_date />
+    </offer>
+    <offer>
+        <id>923376</id>
+        <name>Карандаш воск. для реставрации трещин, Орех KMLS716</name>
+        <type>per_item</type>
+        <regular_price>224.00000</regular_price>
+        <discount_price />
+        <discount_from_date />
+        <discount_to_date />
+    </offer>
+    <offer>
+        <id>354663</id>
+        <name>БЗМЖ Сливки утп Parmalat для взбивания 35% 200г</name>
+        <type>per_item</type>
+        <regular_price>168.99000</regular_price>
+        <discount_price />
+        <discount_from_date />
+        <discount_to_date />
+    </offer>
+    <offer>
+        <id>952180</id>
+        <name>Бальзам для губ 'Мое солнышко' ваниль 2,8 гр в/ф</name>
+        <type>per_item</type>
+        <regular_price>54.99000</regular_price>
+        <discount_price />
+        <discount_from_date />
+        <discount_to_date />
+    </offer>
+    <offer>
+        <id>13381</id>
+        <name>Колготки женские Omsa Attiva 20 Den</name>
+        <type>per_item</type>
+        <regular_price>299.00000</regular_price>
+        <discount_price />
+        <discount_from_date />
+        <discount_to_date />
+    </offer>
+    <offer>
+        <id>652395</id>
+        <name>Хлеб Столичный 600г (нарезка)</name>
+        <type>per_item</type>
+        <regular_price>39.49000</regular_price>
+        <discount_price />
+        <discount_from_date />
+        <discount_to_date />
+    </offer>
+    <offer>
+        <id>855194</id>
+        <name>Наггетсы куриные с филе индейки Морозко 300г</name>
+        <type>per_item</type>
+        <regular_price>179.99000</regular_price>
+        <discount_price>99.99</discount_price>
+        <discount_from_date>2023-05-11T00:00:00</discount_from_date>
+        <discount_to_date>2023-05-24T00:00:00</discount_to_date>
+    </offer>
+    <offer>
+        <id>956812</id>
+        <name>Изделия кондитерские пастильные Хрустяшки из пастилы белевской Ассорти Sweet Queen
+            90гр</name>
+        <type>per_item</type>
+        <regular_price>109.99000</regular_price>
+        <discount_price />
+        <discount_from_date />
+        <discount_to_date />
+    </offer>
+    <offer>
+        <id>265521</id>
+        <name>Колготки жен.STYLE 40den SISI</name>
+        <type>per_item</type>
+        <regular_price>329.00000</regular_price>
+        <discount_price />
+        <discount_from_date />
+        <discount_to_date />
+    </offer>
+    <offer>
+        <id>739104</id>
+        <name>Трусы женские MINIMI BO242 Slip (maxi)</name>
+        <type>per_item</type>
+        <regular_price>399.00000</regular_price>
+        <discount_price>279.30</discount_price>
+        <discount_from_date>2023-05-22T00:00:00</discount_from_date>
+        <discount_to_date>2023-05-23T00:00:00</discount_to_date>
+    </offer>
+    <offer>
+        <id>940125</id>
+        <name>Колбаса в/к Сервелат Царский рецепт Дым Дымыч, 350г</name>
+        <type>per_item</type>
+        <regular_price>219.00000</regular_price>
+        <discount_price>131.40</discount_price>
+        <discount_from_date>2023-05-11T00:00:00</discount_from_date>
+        <discount_to_date>2023-05-23T00:00:00</discount_to_date>
+    </offer>
+    <offer>
+        <id>936108</id>
+        <name>Носки детские Tip-top 17С-59СП детские мордочки</name>
+        <type>per_item</type>
+        <regular_price>169.99000</regular_price>
+        <discount_price />
+        <discount_from_date />
+        <discount_to_date />
+    </offer>
+    <offer>
+        <id>872534</id>
+        <name>Соус острый Жгучий чили бут пэт 260г</name>
+        <type>per_item</type>
+        <regular_price>64.49000</regular_price>
+        <discount_price />
+        <discount_from_date />
+        <discount_to_date />
+    </offer>
+    <offer>
+        <id>176903</id>
+        <name>Чай черный Майский корона Российской империи 200г</name>
+        <type>per_item</type>
+        <regular_price>279.00000</regular_price>
+        <discount_price />
+        <discount_from_date />
+        <discount_to_date />
+    </offer>
+    <offer>
+        <id>473652</id>
+        <name>Тархун Премиум 20г упак</name>
+        <type>per_item</type>
+        <regular_price>94.99000</regular_price>
+        <discount_price />
+        <discount_from_date />
+        <discount_to_date />
+    </offer>
+    <offer>
+        <id>923177</id>
+        <name>Носки мужские Monchini спортивные артM456</name>
+        <type>per_item</type>
+        <regular_price>139.99000</regular_price>
+        <discount_price />
+        <discount_from_date />
+        <discount_to_date />
+    </offer>
+    <offer>
+        <id>29334</id>
+        <name>Картофель"Пушкин".100гр.</name>
+        <type>per_kilo</type>
+        <regular_price>449.90000</regular_price>
+        <discount_price />
+        <discount_from_date />
+        <discount_to_date />
+    </offer>
+    <offer>
+        <id>916751</id>
+        <name>Соус KUHNE томатный аргентинский для стейков 235мл</name>
+        <type>per_item</type>
+        <regular_price>304.00000</regular_price>
+        <discount_price />
+        <discount_from_date />
+        <discount_to_date />
+    </offer>
+    <offer>
+        <id>739068</id>
+        <name>Трусы женские MINIMI BO221 Slip</name>
+        <type>per_item</type>
+        <regular_price>299.00000</regular_price>
+        <discount_price>209.30</discount_price>
+        <discount_from_date>2023-05-22T00:00:00</discount_from_date>
+        <discount_to_date>2023-05-23T00:00:00</discount_to_date>
+    </offer>
+    <offer>
+        <id>864505</id>
+        <name>Нож поварской Kyoto, 19см</name>
+        <type>per_item</type>
+        <regular_price>479.00000</regular_price>
+        <discount_price />
+        <discount_from_date />
+        <discount_to_date />
+    </offer>
+    <offer>
+        <id>960669</id>
+        <name>Напиток Стар Бар Крафт Черника/лимон/лаванда газ.0,33л ст/б</name>
+        <type>per_item</type>
+        <regular_price>99.99000</regular_price>
+        <discount_price />
+        <discount_from_date />
+        <discount_to_date />
+    </offer>
+    <offer>
+        <id>191373</id>
+        <name>Вино Лыхны ОРДИНАРНОЕ красное полусладкое 10-15% 0,75л (Абхазия)</name>
+        <type>per_item</type>
+        <regular_price>579.00000</regular_price>
+        <discount_price />
+        <discount_from_date />
+        <discount_to_date />
+    </offer>
+    <offer>
+        <id>769583</id>
+        <name>Батарейка GP AAА Supercell Солевая 4шт</name>
+        <type>per_item</type>
+        <regular_price>117.49000</regular_price>
+        <discount_price />
+        <discount_from_date />
+        <discount_to_date />
+    </offer>
+    <offer>
+        <id>923821</id>
+        <name>Тарелка Пионы 17см 6шт/G</name>
+        <type>per_item</type>
+        <regular_price>129.99000</regular_price>
+        <discount_price />
+        <discount_from_date />
+        <discount_to_date />
+    </offer>
+    <offer>
+        <id>913513</id>
+        <name>Картофель фри классический Fry Me 700 г</name>
+        <type>per_item</type>
+        <regular_price>269.00000</regular_price>
+        <discount_price />
+        <discount_from_date />
+        <discount_to_date />
+    </offer>
+    <offer>
+        <id>795853</id>
+        <name>Туалетная бумага WHITECLOUD 3-сл цветная Тропический цветок/ Клубника 4рул (ОКЕЙ)</name>
+        <type>per_item</type>
+        <regular_price>94.99000</regular_price>
+        <discount_price>79.99</discount_price>
+        <discount_from_date>2023-05-10T00:00:00</discount_from_date>
+        <discount_to_date>2023-05-24T00:00:00</discount_to_date>
+    </offer>
+    <offer>
+        <id>954313</id>
+        <name>Лак д/волос Intesa Extra Strong Hold 500мл</name>
+        <type>per_item</type>
+        <regular_price>549.00000</regular_price>
+        <discount_price />
+        <discount_from_date />
+        <discount_to_date />
+    </offer>
+    <offer>
+        <id>892398</id>
+        <name>Водка особая Белая Сова Морошка на северном меду 40% 0,5л</name>
+        <type>per_item</type>
+        <regular_price>679.00000</regular_price>
+        <discount_price />
+        <discount_from_date />
+        <discount_to_date />
+    </offer>
+    <offer>
+        <id>879128</id>
+        <name>Кофе молотый Jacobs Barista Editions Crema натуральный жареный 230г</name>
+        <type>per_item</type>
+        <regular_price>589.00000</regular_price>
+        <discount_price />
+        <discount_from_date />
+        <discount_to_date />
+    </offer>
+    <offer>
+        <id>972653</id>
+        <name>Трусы женские Primaverina слип PN-2182 черный</name>
+        <type>per_item</type>
+        <regular_price>699.00000</regular_price>
+        <discount_price>489.30</discount_price>
+        <discount_from_date>2023-05-22T00:00:00</discount_from_date>
+        <discount_to_date>2023-05-23T00:00:00</discount_to_date>
+    </offer>
+    <offer>
+        <id>939428</id>
+        <name>Трусики-подгузники LOVULAR GIRAFFE L 8-15 кг, 50 шт</name>
+        <type>per_item</type>
+        <regular_price>1749.00000</regular_price>
+        <discount_price>1179.99</discount_price>
+        <discount_from_date>2023-05-17T00:00:00</discount_from_date>
+        <discount_to_date>2023-05-24T00:00:00</discount_to_date>
+    </offer>
+    <offer>
+        <id>865457</id>
+        <name>Насадка д/швабры Leifheit Classic из микроволокна</name>
+        <type>per_item</type>
+        <regular_price>939.00000</regular_price>
+        <discount_price />
+        <discount_from_date />
+        <discount_to_date />
+    </offer>
+    <offer>
+        <id>870205</id>
+        <name>Рис Riso Gallo Venere 500г</name>
+        <type>per_item</type>
+        <regular_price>489.00000</regular_price>
+        <discount_price />
+        <discount_from_date />
+        <discount_to_date />
+    </offer>
+    <offer>
+        <id>966542</id>
+        <name>Освежитель воздуха Glade аэрозоль Солнце и сочные клементины 300мл</name>
+        <type>per_item</type>
+        <regular_price>174.99000</regular_price>
+        <discount_price>139.99</discount_price>
+        <discount_from_date>2023-05-10T00:00:00</discount_from_date>
+        <discount_to_date>2023-05-24T00:00:00</discount_to_date>
+    </offer>
+    <offer>
+        <id>939161</id>
+        <name>Напиток Лаймон Фреш Макс газ.с/содерж.1,0л ПЭТ</name>
+        <type>per_item</type>
+        <regular_price>89.49000</regular_price>
+        <discount_price>69.99</discount_price>
+        <discount_from_date>2023-05-10T00:00:00</discount_from_date>
+        <discount_to_date>2023-05-24T00:00:00</discount_to_date>
+    </offer>
+    <offer>
+        <id>966929</id>
+        <name>Носки мужские Monchini арт М322 мультипак, 2 шт Лев</name>
+        <type>per_item</type>
+        <regular_price>299.00000</regular_price>
+        <discount_price />
+        <discount_from_date />
+        <discount_to_date />
+    </offer>
+    <offer>
+        <id>13523</id>
+        <name>Дорада с/г непотр 400-600г охл кг</name>
+        <type>per_kilo</type>
+        <regular_price>949.00000</regular_price>
+        <discount_price />
+        <discount_from_date />
+        <discount_to_date />
+    </offer>
+    <offer>
+        <id>14226</id>
+        <name>Апельсины д/сока фас кг</name>
+        <type>per_kilo</type>
+        <regular_price>99.99000</regular_price>
+        <discount_price>79.99</discount_price>
+        <discount_from_date>2023-05-23T00:00:00</discount_from_date>
+        <discount_to_date>2023-05-25T00:00:00</discount_to_date>
+    </offer>
+    <offer>
+        <id>579422</id>
+        <name>Кофе растворимый Жокей Триумф 280г пак</name>
+        <type>per_item</type>
+        <regular_price>714.00000</regular_price>
+        <discount_price />
+        <discount_from_date />
+        <discount_to_date />
+    </offer>
+    <offer>
+        <id>966860</id>
+        <name>БЗМЖ Ряженка Летний луг 2,5% 475г пюр-пак</name>
+        <type>per_item</type>
+        <regular_price>59.99000</regular_price>
+        <discount_price />
+        <discount_from_date />
+        <discount_to_date />
+    </offer>
+    <offer>
+        <id>891212</id>
+        <name>Финики сушеные целые с/к 500г</name>
+        <type>per_item</type>
+        <regular_price>249.00000</regular_price>
+        <discount_price />
+        <discount_from_date />
+        <discount_to_date />
+    </offer>
+    <offer>
+        <id>688296</id>
+        <name>Капуста цветная ОКЕЙ зам 400г</name>
+        <type>per_item</type>
+        <regular_price>134.99000</regular_price>
+        <discount_price />
+        <discount_from_date />
+        <discount_to_date />
+    </offer>
+    <offer>
+        <id>813194</id>
+        <name>Щетка зубная Oradont средняя жесткость (ТЧН!)</name>
+        <type>per_item</type>
+        <regular_price>19.99000</regular_price>
+        <discount_price />
+        <discount_from_date />
+        <discount_to_date />
+    </offer>
+    <offer>
+        <id>828413</id>
+        <name>Гольфы Allure 2 пары Libra 20</name>
+        <type>per_item</type>
+        <regular_price>119.99000</regular_price>
+        <discount_price />
+        <discount_from_date />
+        <discount_to_date />
+    </offer>
+    <offer>
+        <id>928805</id>
+        <name>Маска-скраб д/лица Body Boom очищающая 100мл</name>
+        <type>per_item</type>
+        <regular_price>224.00000</regular_price>
+        <discount_price>169.99</discount_price>
+        <discount_from_date>2023-05-10T00:00:00</discount_from_date>
+        <discount_to_date>2023-05-24T00:00:00</discount_to_date>
+    </offer>
+    <offer>
+        <id>832614</id>
+        <name>Пончики Берлинские с шоколадным муссом 6*60г</name>
+        <type>per_item</type>
+        <regular_price>159.99000</regular_price>
+        <discount_price />
+        <discount_from_date />
+        <discount_to_date />
+    </offer>
+    <offer>
+        <id>494486</id>
+        <name>Салфетки влажные Topgear №25 д/ухода за кожей</name>
+        <type>per_item</type>
+        <regular_price>72.99000</regular_price>
+        <discount_price />
+        <discount_from_date />
+        <discount_to_date />
+    </offer>
+    <offer>
+        <id>92212</id>
+        <name>Чулки жен.Malizia 40 /Omsa</name>
+        <type>per_item</type>
+        <regular_price>599.00000</regular_price>
+        <discount_price />
+        <discount_from_date />
+        <discount_to_date />
+    </offer>
+    <offer>
+        <id>261265</id>
+        <name>Соус салатный Kuhne с йогуртом 250мл ст/б</name>
+        <type>per_item</type>
+        <regular_price>229.00000</regular_price>
+        <discount_price />
+        <discount_from_date />
+        <discount_to_date />
+    </offer>
+    <offer>
+        <id>828166</id>
+        <name>Кофеварка Polaris PCM 1211</name>
+        <type>per_item</type>
+        <regular_price>1790.00000</regular_price>
+        <discount_price />
+        <discount_from_date />
+        <discount_to_date />
+    </offer>
+    <offer>
+        <id>942261</id>
+        <name>Кофе растворимый Jacobs Brazilian Selection натуральный сублимированный 180г ст/б</name>
+        <type>per_item</type>
+        <regular_price>879.00000</regular_price>
+        <discount_price />
+        <discount_from_date />
+        <discount_to_date />
+    </offer>
+    <offer>
+        <id>834207</id>
+        <name>Рис Националь Бальдо 800г</name>
+        <type>per_item</type>
+        <regular_price>154.99000</regular_price>
+        <discount_price />
+        <discount_from_date />
+        <discount_to_date />
+    </offer>
+    <offer>
+        <id>671771</id>
+        <name>Пюре Semper овощи/фрикадельки из индейки с 9 мес 190г ст/б</name>
+        <type>per_item</type>
+        <regular_price>259.00000</regular_price>
+        <discount_price />
+        <discount_from_date />
+        <discount_to_date />
+    </offer>
+</price_data>

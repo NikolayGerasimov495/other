@@ -1,0 +1,67 @@
+
+django-admin startproject (имя проекта)
+ python3 manage.py startapp horoscope (name app)
+ python3 manage.py runserver - запускает сервер
+
+python3 manage.py makemigrations - смотреть/создать миграции
+python3 manage.py migrate - нужно делать всегда, когда произошли изменения
+
+python3 manage.py shell - спецаильная консоль для джнаги где подключается наш проект и окружение
+from movie_app.models import Movie ипортируем таблицу для работы
+a = Movie(name = 'Matrix', rating = 85) - вводим данные для экземпляра
+a.save() - сохраняем данные в таблицу
+
+from django.db import connection
+connection.queries посмотреть под копотом добавление записи
+
+python3 manage.py shell_plus --print-sql
+Movie(name='xxx', rating=70).save()
+
+
+Movie.objects.all() - посмотреть объекты
+Movie.objects.all()[:2]
+Movie.objects.get(id=5) - находит объект под цифрой 5 (тольку одну запись можно вызвать)
+Movie.objects.filter(budget=1000000) - выбрать несколько записей
+Movie.objects.filter(rating__gt=83) - условие (смотри ООП) какие бывают
+Movie.objects.exclude(rating=80) - исключает (!=)
+Movie.objects.filter(year__isnull=True) - выводит без нул
+Movie.objects.filter(year__isnull=True, rating=80) - несколько
+Movie.objects.exclude(rating=80).filter(year__isnull=True, rating=80)
+Movie.objects.filter(name__contains='Avatar') - contains (содержатся несколько записей)
+Movie.objects.filter(name__icontains='avatar') - пофиг на регистр
+Movie.objects.filter(name__startswith='Av') - начинаются с..
+Movie.objects.filter(name__istartswith='Av') - пофиг на регистр
+Movie.objects.filter(name__startswith='Av') - заканчиваются с..
+
+from django.db.models import Q - добавляет условия (сравнение и т/д)
+Movie.objects.filter(Q(year__isnull=True) & Q(rating=80))) - союз и(&)
+Movie.objects.filter(Q(year__isnull=True) | Q(rating=80))) - союз или(|)
+Movie.objects.filter(Q(year__isnull=True) | ~Q(rating=80))) - NOT(~) ()
+, запятая объединяет несколько условий)
+
+
+ movies.aggregate(Sum('budget')) - нужно сделать импорт функций и далее спокойно работать с этими функциями
+movies.aggregate(Sum('budget'), Avg('rating'), Min('year'), Max('year'))
+
+
+python3 manage.py createsuperuser - создаем ак админа
+
+from movie_app.models import Director - обращаемся к другой таблице
+Director.objects.all() - всех директооров
+a = Director.objects.all()[1] - первый дир
+a.movie_set - через директоро обращаемся к фильмам
+a.movie_set.all() - чтобы были видны
+
+Director.objects.create(first_name='Ридли', last_name='Скот') -создаем объект
+
+
+Movie(id=12, name = 'toy story 4', director = voodi, rating=90).save() - создаем фильм
+toy_story_4=Movie.objects.get(id=12)
+ v=Actor.objects.all()[1]
+toy_story_4.actors.add(v)
+toy_story_4.actors.remove(v)
+
+
+
+
+

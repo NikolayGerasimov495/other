@@ -1,0 +1,29 @@
+docker info - показывает информацию о контейнере
+docker images - показывает образы
+docker ps - статус о контейнере
+docker - список команд
+
+
+docker pull kennethreitz/httpbin
+docker run -p 80:80 kennetthreitz/httpbin
+curl -X POST 127.0.0.1/post -d "hello"  
+
+
+
+docker build -t hello-world . - new images in you dir
+docker run hello-world - run container
+docker ps -a - show all container
+docker run --name Hello hello-world - show NAMES in container
+docker run --name Hello -d hello-world - (-d) - it`s run background
+docker rm (rmi) - delete container
+docker ps -a -q - show only ID container
+docker rm $(docker ps -qa) - delete all container
+docker-compose build - построить все сервисы
+docker-compose up - запустить все сервисы
+docker-compose run - запустить все сервисы и еще что-то дополнительно
+
+docker-compose run django django-admin startproject movie_project .
+docker-compose run django python3 manage.py migrate
+docker-compose run django python3 manage.py createsuperuser
+docker-compose down  - останавливает все контейнеры
+docker-compose up
