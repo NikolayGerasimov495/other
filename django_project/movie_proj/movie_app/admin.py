@@ -45,7 +45,7 @@ class MovieAdmin(
 
     @admin.display(ordering='rating', description='Статус')  # для возможности сортировки rating_status по полю rating
     def rating_status(self,
-                      mov: Movie):  # можно оставить просто mov(наследуем от класса Movie), а можно анотировать как в записи(тогда pycharm увидет переменные)
+                      mov: Movie):  # можно оставить просто mov(наследуем от класса Movie), а можно аннотировать как в записи(тогда pycharm увидит переменные)
         if mov.rating < 50:
             return "Зачем это смотреть"
         if mov.rating < 70:

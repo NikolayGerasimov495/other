@@ -1,5 +1,5 @@
 import pytest
-from fizzbuzz_func import fizzbuzz
+from tests.fizzbuzz_func import fizzbuzz
 
 @pytest.mark.parametrize("test_input, expected", [(0, [])])
 def test_fizzbuzz_is_zero(test_input: int, expected: list) -> list:

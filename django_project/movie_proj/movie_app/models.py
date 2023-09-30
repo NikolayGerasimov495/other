@@ -55,7 +55,7 @@ class Movie(models.Model):
 
     director = models.ForeignKey(Director, on_delete=models.PROTECT,
                                  null=True)  # делаем связь между таблицами один ко многим.PROTECT не дает удалить данные тк у него есть дочерние записи
-    # есть метод CASCADE (может удалить запись и дочернии записи) есть метод SET_NULL запись удалиться и проставить нулл
+    # есть метод CASCADE (может удалить запись и дочернии записи) есть метод SET_NULL запись удалится и проставить нулл
     actors = models.ManyToManyField(Actor)
 
     def get_url(self):
