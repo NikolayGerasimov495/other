@@ -1484,6 +1484,67 @@ list_2 = [2, 8]
 # else:
 #     print('no')
 #
+# city = ('Москва', 'Париж', 'Токио')
+# population = (11.98, 2.16, 13.96)
+# cities_population = dict(zip(city, population))
+# print(cities_population)
+
+# dict_input = {"1": 11, "2": 22, "3": 33}
+# result = {y: x for x, y in dict_input.items()}
+# print(result)
+
+# data = {
+#   "cost_price": 225.89,
+#   "sell_price": 550.00,
+#   "eclairs": 100
+# }
+# result = round((data['sell_price'] - data['cost_price']) *  data['eclairs'])
+# print(result)
+
+
+# student = {"name": "Igor", "notes": [4, 5, 4]}
+# max_note = {'max_note': max(student["notes"])}
+# student.pop('notes')
+# student.update(max_note)
+# result = student
+# print(result)
+
+
+# anton_courses = {'SimulatorAnalyst': 56,
+#                  'StartML': 87,
+#                  'DataAnalyst': 140}
 #
+# anton_courses.setdefault('HardML', 120)
+# courses = [x for x in anton_courses.keys()]
+# StartML = anton_courses['StartML']
+# print(anton_courses)
+# print(courses)
+# print(StartML)
+# anton_courses['HardML'] = 120
+# courses = list(anton_courses.keys())
+# StartML = anton_courses['StartML']
 
+# shop_stock = {"2358241350-50": 1, "2358000350-30": 24, "2358241350-00": 3}
+# shop_new_goods = {"2358241350-60": 10}
+# shop_stock.update(shop_new_goods)
+# result = shop_stock
+# print(result)
 
+# input_dict = {"морковь": 10.44, "капуста": 5.06, "клубника": 3}
+# result = sum(input_dict.values())
+# print(result)
+
+# courses = {"Python": 80000, "SQL": 300000}
+# result = max(courses.values())
+# print(result)
+
+# kaf_sudents  = {'Карпов Анатолий Дмитриевич': 100}
+# new_kaf_students =  {'Иванчей Иван Иванович': 200}
+#
+# kaf_sudents.update(new_kaf_students)
+# print(kaf_sudents)
+
+# students_courses = {}
+# name_age = frozenset(['Anatoly', 32])
+# students_courses.update({name_age: ['Python', 'C++']})
+# print(students_courses) # => {frozenset({32, 'Anatoly'}): ['Python', 'C++']}
