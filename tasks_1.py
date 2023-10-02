@@ -1548,3 +1548,219 @@ list_2 = [2, 8]
 # name_age = frozenset(['Anatoly', 32])
 # students_courses.update({name_age: ['Python', 'C++']})
 # print(students_courses) # => {frozenset({32, 'Anatoly'}): ['Python', 'C++']}
+
+
+# str_1 = 'AaB'
+# str_2 = 'Ab'
+# is_the_same_letters = True if set(str_1.lower()) == set(str_2.lower()) else False
+# print(is_the_same_letters)
+#
+# str_1 = 'Aa'
+# str_2 = 'AaB'
+# is_the_same_letters = True if set(str_1.lower()) == set(str_2.lower()) else False
+# print(is_the_same_letters)
+
+# x = 3.14
+# y = int(str(x).split('.')[1])
+# print(y)
+#
+# str_1 = "Привет"
+# str_2 = "Провал"
+# result = sorted(str_1.lower()) == sorted(str_2.lower())
+# print(result)
+#
+# str_1 = "Кот"
+# str_2 = "Ток"
+# result = sorted(str_1.lower()) == sorted(str_2.lower())
+# print(result)
+
+#
+# a = "Я     изучаю   новый язык      программирования.   "
+# result = ' '.join(a.split())
+# print(result)
+
+
+# a = "div*2"
+# b = a.split('*')
+# result = f'<{b[0]}></{b[0]}>' * int(b[1])
+# print(result)
+
+
+# x = 'У лукоморья дуб зелёный'
+# result = ' '.join(sorted(x.split()))
+# print(result)
+
+
+# x = 'На подоконнике в гостиной у бабушки росли цветы, цветы были красные и желтые, очень красивые цветы.'
+# y = 'цветы'
+# result = x.count(y)
+# print(result)
+
+# card = '5468350018455833'
+# result = '*'*12+card[12::]
+# print(result)
+
+# a = 'Я помню чудное мгновенье'
+# b = 'о'
+# result = a.replace(b, '')
+# print(result)
+
+
+# a = 1
+# b = 2
+# result = a if a ** 2 > b ** 2 else b
+# print(result)
+
+# # Пример 1
+# p = 12950000  # стоимость
+# s = 32  # площадь
+# d = 13  # удаленность от метро
+#
+# result = True if 13000000 < p < 15000000 and 35 < s > 50 and 5 < d < 25 else False
+# print(result)
+#
+# # Пример 2
+# p = 14980000  # стоимость
+# s = 51.9  # площадь
+# d = 23  # удаленность от метро
+#
+# result = True if 13000000 < p < 15000000 and 35 < s > 50 and 5 < d < 25 else False
+# print(result)
+
+# Пример 1
+# K = 121  # количество баллов, полученных Катей
+# M = 100  # количество баллов, необходимое для получения сертификата
+# L = 150  # количество баллов, необходимое для получения сертификата с отличием
+#
+# result = "Выдан сертификат с отличием" if K >= L else "Сертификат выдан" if M < K < L else 'Недостаточно баллов'
+# print(result)
+#
+# # Пример 2
+# K = 148
+# M = 110
+# L = 145
+#
+# result = "Выдан сертификат с отличием" if K >= L else "Сертификат выдан" if M < K < L else 'Недостаточно баллов'
+# print(result)
+
+#
+# # Пример 1
+# x = 150000
+# y = 3
+# result = x*2 if 2 <= y < 5 else x * 5 if 5 <= y < 15 else x*10 if y >= 15 else 0
+# print(result)
+# # Пример 2
+# x = 100000
+# y = 1
+# result = x*2 if 2 <= y < 5 else x * 5 if 5 <= y < 15 else x*10 if y >= 15 else 0
+# print(result)
+#
+# # Пример 3
+# x = 200000
+# y = 16
+# result = x*2 if 2 <= y < 5 else x * 5 if 5 <= y < 15 else x*10 if y >= 15 else 0
+# print(result)
+
+
+dict_age = {'Марк': 5,
+            'Авель': 3,
+            'Карп': 9}
+#
+# a = [i for i in sorted(dict_age.values())]
+# middle = a[-2]
+#
+# b = [str(i) for i in dict_age.values()]
+#
+# if len(b) != len(set(b)):
+#     result = ''
+#     print(result)
+# else:
+#     for name, age in dict_age.items():
+#         if age == middle:
+#             result = name
+#             print(result)
+
+# dict_age = {'Марк': 5,
+#             'Авель': 1,
+#              'Карп': 9}
+# ages = list(dict_age.values())
+# if len(set(ages)) == 3:
+#     middle_index = ages.index(sorted(ages)[1])
+#     result = list(dict_age.keys())[middle_index]
+#     print(result)
+# else:
+#     result = ''
+#     print(result)
+
+
+#
+# a = 70
+# b = 130
+# c = 110
+# if a**2 + b**2 == c**2 or a**2 + c**2 == b**2 or b**2 + c**2 == a**2:
+#     print(True)
+# else:
+#     print(False)
+
+#
+# import math
+#
+# def calculate(f, v):
+# if f == 'S':
+#     # Вычисляем периметр квадрата
+#     result = 4 * v
+# elif f == 'C':
+#     # Вычисляем длину окружности
+#     result = 2 * math.pi * v
+# else:
+#     # Если передана некорректная буква, выводим сообщение об ошибке
+#     result = "Некорректный ввод"
+#
+#     return result
+#
+# # Вводим букву и число
+# f = input("Введите букву (S - квадрат, C - круг): ")
+# v = float(input("Введите число: "))
+#
+# # Вычисляем результат
+# result = calculate(f, v)
+#
+# # Выводим результат
+# print("Результат:", result)
+
+# # Пример 1
+# a = 1
+# b = 10
+# result = sum([i for i in range(a, b + 1) if i % 3 == 0 or i % 5 == 0])
+# print(result)
+# # Пример 2
+# a = 9
+# b = 9
+# result = sum([i for i in range(a, b + 1) if i % 3 == 0 or i % 5 == 0])
+# print(result)
+# # Пример 3
+# a = 1
+# b = 2
+# result = sum([i for i in range(a, b + 1) if i % 3 == 0 or i % 5 == 0])
+# print(result)
+
+# Пример 1
+# num = 7
+# a = [i for i in range(1, num + 1) if num % i == 0 ]
+# if len(a) == 2:
+#     result = "это простое число"
+#     print(result)
+# else:
+#     result = "это не простое число"
+#     print(result)
+
+
+# number = 16 # число для теста
+#
+# if number == 0:
+#     is_two_power = False
+# while number % 2 == 0:
+#     number = number / 2
+# is_two_power = number == 1
+#
+# print(is_two_power)
