@@ -1344,9 +1344,9 @@ from functools import reduce
 # print(numbers_set)
 # print(numbers_frozenset)
 
-
-list_1 = [1, 5, 3]
-list_2 = [2, 8]
+#
+# list_1 = [1, 5, 3]
+# list_2 = [2, 8]
 # # ->
 # list_1 = [1, 3, 5]
 # list_2 = [8, 2]
@@ -1665,6 +1665,8 @@ list_2 = [2, 8]
 dict_age = {'Марк': 5,
             'Авель': 3,
             'Карп': 9}
+
+
 #
 # a = [i for i in sorted(dict_age.values())]
 # middle = a[-2]
@@ -1764,3 +1766,166 @@ dict_age = {'Марк': 5,
 # is_two_power = number == 1
 #
 # print(is_two_power)
+
+# a = ['abc', 'faq', 'deq', 'qwe', 'dfp', 'rteq']
+# target = 'p'
+# for ind, i in enumerate(a):
+#     if target in i:
+#         print(ind, i)
+
+
+# orders = [
+#     {"номер": "001", "клиент": "John", "дата": "2022-01-01", "статус": "в обработке"},
+#     {"номер": "002", "клиент": "Alice", "дата": "2022-01-02", "статус": "выполнен"},
+#     {"номер": "003", "клиент": "Bob", "дата": "2022-01-03", "статус": "выполнен"},
+#     {"номер": "004", "клиент": "Eva", "дата": "2022-01-04", "статус": "в обработке"},
+# ]
+# for index, order in enumerate(orders, start=1):
+#     print(f"Заказ {index}:")
+#     for key, value in order.items():
+#         print(f"{key}: {value}")
+#     print()
+
+# for i in range(1, 6):
+#     if i == 3:
+#         continue
+#     print(i)
+
+# employees = [
+#     {'name': 'John', 'qualification': 'low'},
+#     {'name': 'Alice', 'qualification': 'high'},
+#     {'name': 'Bob', 'qualification': 'medium'},
+#     {'name': 'Eva', 'qualification': 'low'},
+#     {'name': 'Mike', 'qualification': 'high'},
+#     {'name': 'Lisa', 'qualification': 'medium'}
+# ]
+# found_high_qualification_employee = False
+# for employee in employees:
+#     qualification = employee['qualification']
+#     if qualification == 'low':
+#         continue  # Пропускаем работника с низкой квалификацией
+#     elif qualification == 'high':
+#         found_high_qualification_employee = True
+#         high_qualification_employee = employee
+#         break  # Найден работник с высокой квалификацией, прекращаем поиск
+# if found_high_qualification_employee:
+#     print("Работник с высокой квалификацией найден!")
+#     print(high_qualification_employee)
+# else:
+#     print("Работник с высокой квалификацией не найден.")
+
+
+#
+# coffee = 0.1
+# milk =1
+#
+# coffee *= 1000
+# milk *= 1000
+# visitors = 0
+# while True:
+#     if coffee < 7 or ((visitors + 1) % 3 == 0 and milk < 100) or ((visitors + 1) % 5 == 0 and milk < 180):
+#         break
+#     visitors += 1
+#     coffee -= 7
+#     if visitors % 3 == 0:
+#         milk -= 100
+#     elif visitors % 5 == 0:
+#         milk -= 180
+#
+# print(visitors)
+
+
+# Пример 1
+
+# a = [1, 2, 3, 4]
+# result = True
+# chet = []
+# nechet = []
+# for i in a:
+#     if i % 2 == 0:
+#         chet.append(i)
+#     else:
+#         nechet.append(i)
+# if len(nechet) > len(chet):
+#     result = True
+# else:
+#     result = False
+#
+# print(result)
+
+# grades = {"Математика": 4, "История": 3, "Биология": 3, "География": 4}
+# good_subjects = ["Математика", "География"]
+#
+# grades = {"Алгебра": 3, "ИЗО": 2}
+# # good_subjects = []
+# good_subjects = []
+# for grade, mark in grades.items():
+#     if mark >= 4:
+#         good_subjects.append(grade)
+#     else:
+#         None
+#
+# print(good_subjects)
+
+# # Пример 2
+# nums = [0, 2, 35, 42, 45, 14, -6, -1]
+# result = [-1, 0]
+
+# Пример 1
+# nums = [0, 2, 35, 42, 45, 14, -6, -1]
+# nums.sort()
+# min_diff = float('inf')
+#
+# for i in range(len(nums) - 1):
+#     diff = abs(nums[i] - nums[i + 1])
+#
+#     if diff < min_diff:
+#         min_diff = diff
+#         result = [nums[i], nums[i + 1]]
+#         # print(result)
+#     elif diff == min_diff:
+#         if sum([nums[i], nums[i + 1]]) > sum(result):
+#             result = [nums[i], nums[i + 1]]
+# print(result)
+
+
+# lst_1 = ["1", "0", "0", "1"]
+# lst_2 = ["0", "1", "1", "1"]
+#
+# lst_1 = [5, 0, 0, 5]
+# lst_2 = [5, 0, 5, 5]
+#
+# def how_digit(lst):
+#     d = {}
+#     for i in lst:
+#         d[i] = d.get(i, 0) + 1
+#     return d
+# result = how_digit(lst_1) == how_digit(lst_2)
+# print(result)
+
+# Пример 1
+# m = [[2, 23, 4],
+#      [3, 3, 1],
+#      [6, 3, 5]]
+
+# # Пример 2
+# m = [[1]]
+# result = sum([m[i][i] for i in range(len(m))]) == sum([m[i][len(m[i]) - i - 1] for i in range(len(m))])
+
+
+
+# input_dict = {'lesson': 2, 'task': 21, 'course': 'python'}
+# # result = 'course=python&lesson=2&task=21'
+# a = sorted(input_dict)
+# res = ''
+# for k in a:
+#     v = input_dict[k]
+#     res += f'{k}={v}&'
+#     result = res[:-1]
+#
+# print(result)
+#
+# result_list = [f'{key}={value}' for key, value in sorted(input_dict.items())]
+# result = '&'.join(result_list)
+
+
