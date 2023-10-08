@@ -1666,7 +1666,6 @@ dict_age = {'Марк': 5,
             'Авель': 3,
             'Карп': 9}
 
-
 #
 # a = [i for i in sorted(dict_age.values())]
 # middle = a[-2]
@@ -1913,7 +1912,6 @@ dict_age = {'Марк': 5,
 # result = sum([m[i][i] for i in range(len(m))]) == sum([m[i][len(m[i]) - i - 1] for i in range(len(m))])
 
 
-
 # input_dict = {'lesson': 2, 'task': 21, 'course': 'python'}
 # # result = 'course=python&lesson=2&task=21'
 # a = sorted(input_dict)
@@ -1927,5 +1925,168 @@ dict_age = {'Марк': 5,
 #
 # result_list = [f'{key}={value}' for key, value in sorted(input_dict.items())]
 # result = '&'.join(result_list)
+
+
+# input_str = "String"
+# # result = "SSttrriinngg"
+# print(''.join([i*2 for i in input_str]))
+
+# n = 54412
+# n = 2024
+# result = [False, False, True, False, True]
+# result = [False, True, False, True]
+#
+# result = [False]
+# a = [int(i) for i in str(n)]
+# for i in range(1, len(a)):
+#
+#     if a[i-1] == 0 or a[i] % a[i - 1] != 0:
+#         result.append(False)
+#     else:
+#         result.append(True)
+# print(result)
+
+# nums = [0, 2, 35, 42, 45, 14, -6, -1]
+# nums.sort()
+# min_diff = float('inf')
+#
+# for i in range(len(nums) - 1):
+#     diff = abs(nums[i] - nums[i + 1])
+#
+#     if diff < min_diff:
+#         min_diff = diff
+#         result = [nums[i], nums[i + 1]]
+#         # print(result)
+#     elif diff == min_diff:
+#         if sum([nums[i], nums[i + 1]]) > sum(result):
+#             result = [nums[i], nums[i + 1]]
+
+
+# # students = {'Бабаков': 80, 'Антонов': 99, 'Волгов': 100}
+# # students = {'Иванов': 100, 'Петров': 100, 'Сидоров': 80}
+# students = {'Рахманинов': 92, 'Пушкин': 70, 'Бальзак': 70, 'Маск': 91}
+# # students_order = [(1, 'Антонов'), (2, 'Волгов')]
+# a = sorted([k for k,v in students.items() if v > 90])
+# students_order = [(ind,i) for ind, i in enumerate(a, 1)]
+# print((students_order))
+# students_order = [name for name in sorted(students.keys()) if students[name] > 90]
+# students_order = list(enumerate(students_order, 1))
+
+# my_string = 'zis jqd qbdx qjjgsd bcd zjm fbc bvbx'
+# secret_dict = {
+# 'v': 'w',
+# 'x': 'y',
+# 'i': 'h',
+# 'q': 'l',
+# 'c': 'n',
+# 'b': 'a',
+# 'f': 'r',
+# 'j': 'o',
+# 's': 'e',
+# 'z': 't',
+# 'g': 'k'}
+
+# decrypted_string = 'the old lady looked and tom ran away'
+# decrypted_string = ''
+# for char in my_string:
+#     if char in secret_dict:
+#         decrypted_string += secret_dict[char]
+#         print(secret_dict[char])
+#     else:
+#         decrypted_string += char
+
+# decrypted_string = ''
+# for i in my_string:
+#     if secret_dict.get(i):
+#         decrypted_string += secret_dict[i]
+#     else:
+#         decrypted_string += i
+# print(decrypted_string)
+
+
+# products = {
+#     "ноутбук": 5000,
+#     "смартфон": 20000,
+#     "наушники": 1000,
+#     "монитор": 10000,
+#     "клавиатура": 500,
+#     "мышь": 200,
+#     "роутер": 1500,
+#     "принтер": 5000,
+#     "флешка": 1000,
+#     "жесткий диск": 3000
+# }
+#
+# def calculate_order_cost(products, *args):
+#     total_cost = 0
+#     orders_info = {}
+#     for i in args:
+#         if i in products:
+#             orders_info[i] = orders_info.get(i, 0) + 1
+#             total_cost += products[i]
+#     return total_cost, orders_info
+#
+#
+# total_cost, orders_info = calculate_order_cost(products , 'мышь', 'флешка', 'монитор', 'кабель', 'мышь')
+# print(total_cost) # 11400
+# print(orders_info) # {'мышь': 2, 'флешка': 1, 'монитор': 1}
+#
+# # total_cost, orders_info = calculate_order_cost(products, 'ноутбук', 'роутер')
+# # print(total_cost) # 6500
+# # print(orders_info) # {'ноутбук': 1, 'роутер': 1}
+#
+# # total_cost, orders_info = calculate_order_cost(products , 'мышь', 'флешка', 'монитор', 'кабель', 'мышь')
+# # print(total_cost) # 11400
+# # print(orders_info) # {'мышь': 2, 'флешка': 1, 'монитор': 1}
+
+
+# def calculator(op, a, b):
+#     try:
+#         if op == '+':
+#             return sum(a,b)
+#         elif op == '-':
+#             return a-b
+#         elif op == "/":
+#             return a/b
+#         elif op == "^":
+#             return pow(a,b)
+#         elif op == "%":
+#             return a%b
+#         elif op == "//":
+#             return a//b
+#         else:
+#             return 'Error'
+#     except ZeroDivisionError:
+#         return 'Error'
+#
+# print(calculator('/', 2, 0)) # -> 6
+
+
+# def sorting_hat(new_students):
+#     scools = {
+#         'Гриффиндор': ('храбрость', 'благородство', 'честь'),
+#         'Пуффендуй': ('трудолюбие', 'верность', 'честность'),
+#         'Когтевран': ('ум', 'любознательность', 'творчество'),
+#         'Слизерин': ('хитрость', 'амбициозность', 'находчивость'),
+#     }
+#
+#     sortered_students = {}
+#     departments = {'Гриффиндор': 0, 'Когтевран': 0, 'Пуффендуй': 0, 'Слизерин': 0}
+#     for k, v in sorted(new_students.items()):
+#         for s,c in scools.items():
+#             if v in c:
+#                 sortered_students[k] = sortered_students.get(s,'') + s
+#                 departments[s] = departments.setdefault(s, 0) + 1
+#     return dict(sorted(sortered_students.items(), key=lambda item: item[1])), dict(sorted(departments.items()))
+#
+# new_students = {'Сириус Блэк': 'храбрость', 'Аманда Коршун': 'любознательность',
+#                 'Пенелопа Вулпинголд': 'находчивость', 'Артур Поттер': 'храбрость', 'Тесая Блэк': 'ум'}
+# print(sorting_hat(new_students))  # ->
+# sorted_students = {'Артур Поттер': 'Гриффиндор', 'Сириус Блэк': 'Гриффиндор', 'Аманда Коршун': 'Когтевран',
+#                    'Тесая Блэк': 'Когтевран', 'Пенелопа Вулпинголд': 'Слизерин'}
+# departments = {'Гриффиндор': 2, 'Когтевран': 2, 'Пуффендуй': 0, 'Слизерин': 1}
+
+
+
 
 
